@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from tryspikes.com/case-studies/seedrs-mvp-development by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Dec 2023 02:42:04 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Seedrs Equity Crowdfunding Success: How Tryspikes Delivered a High-Quality Mobile App Fast. Learn how React Native, GitHub Actions, Testflight, and strategic design boosted user experience, led to acquisition, and how we can help you next."
+    />
+    <meta
+      name="keywords"
+      content="Tryspikes, Seedrs, Equity crowdfunding, Mobile application development, React Native, GitHub Actions, User growth "
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Tryspikes · Seedrs - MVP Mobile Application"
+    />
+    <meta
+      name="application-name"
+      content="Tryspikes · Seedrs - MVP Mobile Application"
+    />
+    <meta property="og:type" content="article" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:url" content="seedrs-mvp-development.html" />
+    <meta
+      property="og:title"
+      content="Tryspikes · Seedrs - MVP Mobile Application"
+    />
+    <meta
+      property="og:description"
+      content="Seedrs Equity Crowdfunding Success: How Tryspikes Delivered a High-Quality Mobile App Fast. Learn how React Native, GitHub Actions, Testflight, and strategic design boosted user experience, led to acquisition, and how we can help you next."
+    />
+    <meta
+      property="og:image"
+      content="../../storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png"
+    />
+    <meta
+      property="twitter:title"
+      content="Tryspikes · Seedrs - MVP Mobile Application"
+    />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@tryspikes" />
+    <meta
+      property="twitter:description"
+      content="Seedrs Equity Crowdfunding Success: How Tryspikes Delivered a High-Quality Mobile App Fast. Learn how React Native, GitHub Actions, Testflight, and strategic design boosted user experience, led to acquisition, and how we can help you next."
+    />
+    <meta
+      property="twitter:image"
+      content="../../storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png"
+    />
+    <meta name="robots" content="index" />
+    <link rel="canonical" href="seedrs-mvp-development.html" />
+    <link
+      rel="apple-touch-icon"
+      href="../../storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../../storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png"
+    />
+    <title>Tryspikes · Seedrs - MVP Mobile Application</title>
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Tryspikes",
+          "url": https://tryspikes.com,
+          "image": "https://storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png",
+          "description": Everybody talks about amazing products. We build them. Software Development Agency specialized in building High Performance and Resilient Software.,
+          "organization": {
+            "@type": "Organization",
+            "name": "Tryspikes",
+            "logo": "https://storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Tryspikes",
+            "logo": "https://storage.googleapis.com/public-tryspikes/tryspikes-logo-w-blue.png"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": https://tryspikes.com
+          }
+        }
+    </script>
+    <link
+      rel="preload"
+      as="image"
+      href="https://storage.googleapis.com/tryspikes-landing-page/tryspikes_logo.svg"
+      fetchpriority="high"
+    />
+    <meta name="next-head-count" content="26" />
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "option": {
+              "slug": { "current": "seedrs-mvp-development" },
+              "shortDescription": "Seedrs Equity Crowdfunding Success: How Tryspikes Delivered a High-Quality Mobile App Fast. Learn how React Native, GitHub Actions, Testflight, and strategic design boosted user experience, led to acquisition, and how we can help you next.",
+              "mainImage": {
+                "url": "https://cdn.sanity.io/images/efrpqgx9/production/51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png",
+                "alt": "main"
+              },
+              "description": [
+                {
+                  "_type": "block",
+                  "style": "normal",
+                  "_key": "b74908358ebb",
+                  "markDefs": [],
+                  "children": [
+                    {
+                      "_type": "span",
+                      "marks": [],
+                      "text": "Seedrs is a platform for equity crowdfunding based in the United Kingdom. It providers a platform for startups and growth-focused businesses to raise capital by connecting them with a network of investors.",
+                      "_key": "7ad4c7e188420"
+                    }
+                  ]
+                },
+                {
+                  "markDefs": [],
+                  "children": [
+                    {
+                      "_key": "e483614d9ab30",
+                      "_type": "span",
+                      "marks": [],
+                      "text": ""
+                    }
+                  ],
+                  "_type": "block",
+                  "style": "normal",
+                  "_key": "f0c9f129354e"
+                },
+                {
+                  "style": "normal",
+                  "_key": "449c1ca36a6b",
+                  "markDefs": [],
+                  "children": [
+                    {
+                      "_type": "span",
+                      "marks": [],
+                      "text": "After trying to develop their Mobile Application with an internal team Seedrs invited us to help them develop their Mobile Application. They are in the market and have their own branding so they wanted to use their own designers.",
+                      "_key": "8989edbff3260"
+                    }
+                  ],
+                  "_type": "block"
+                },
+                {
+                  "_type": "block",
+                  "style": "normal",
+                  "_key": "f0fd5efb3512",
+                  "markDefs": [],
+                  "children": [
+                    {
+                      "_type": "span",
+                      "marks": [],
+                      "text": "",
+                      "_key": "c005a0a6fbb80"
+                    }
+                  ]
+                },
+                {
+                  "markDefs": [],
+                  "children": [
+                    {
+                      "_type": "span",
+                      "marks": [],
+                      "text": "So after we understand the business and received the early mockups we started our development efforts.",
+                      "_key": "384c80a8933d0"
+                    }
+                  ],
+                  "_type": "block",
+                  "style": "normal",
+                  "_key": "562d9cb03f13"
+                }
+              ],
+              "technologies": ["react_native", "typescript", "github_actions"],
+              "content": [
+                {
+                  "_key": "71addaf4e70e",
+                  "body": [
+                    {
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "marks": [],
+                          "text": "Seedrs was losing potential revenue, every day that passes and they didn’t have a mobile application where the users could invest. There are extensive literature showing that most of the investors on this type of apps are acquired and invest through their mobile, so they really had a tight deadline for an early working version of the application.",
+                          "_key": "acb1d05ee55a0",
+                          "_type": "span"
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal",
+                      "_key": "7dd7efb22ccf"
+                    },
+                    {
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "text": "",
+                          "_key": "844a439bff9b",
+                          "_type": "span",
+                          "marks": []
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal",
+                      "_key": "947301cfdd2f"
+                    },
+                    {
+                      "markDefs": [
+                        {
+                          "_type": "link",
+                          "href": "https://wv-landing-public.s3.eu-west-1.amazonaws.com/mvp-examples.png",
+                          "_key": "96b912368414"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "text": "mvp_examples_image",
+                          "_key": "0d1253e6c31d",
+                          "_type": "span",
+                          "marks": ["96b912368414"]
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal",
+                      "_key": "cfe74deb15f7"
+                    }
+                  ],
+                  "title": "Challenge",
+                  "_type": "section"
+                },
+                {
+                  "_type": "section",
+                  "_key": "d8ef0a35c6cf",
+                  "body": [
+                    {
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "_type": "span",
+                          "marks": [],
+                          "text": "As you already read above we had really tight deadline constraints to publish something that’s working really fast without losing Tryspikes’s high-quality standards.",
+                          "_key": "9a8d499a3c2e"
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal",
+                      "_key": "fd5efc5d56cc"
+                    },
+                    {
+                      "_type": "block",
+                      "style": "normal",
+                      "_key": "25c6ebbbe8d1",
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "_type": "span",
+                          "marks": [],
+                          "text": "",
+                          "_key": "90f77ec02bbf"
+                        }
+                      ]
+                    },
+                    {
+                      "_key": "462eec37d079",
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "_type": "span",
+                          "marks": [],
+                          "text": "We used React Native to tackle this issue, we could write code in one codebase and create all the native platforms needed (iOS and Android). In addition with GitHub actions, Testflight and Firebase it allowed us to create faster builds and to deliver on-time.",
+                          "_key": "1f148422764e"
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal"
+                    }
+                  ],
+                  "title": "Fast and quality"
+                },
+                {
+                  "_type": "section",
+                  "_key": "c70ec490f781",
+                  "body": [
+                    {
+                      "style": "normal",
+                      "_key": "53e77cb78cf4",
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "_type": "span",
+                          "marks": [],
+                          "text": "Being an application where users can invest it’s mandatory to have some sort of charting, where users can see clearly how is their investment growing.",
+                          "_key": "3b31cc937aca0"
+                        }
+                      ],
+                      "_type": "block"
+                    },
+                    {
+                      "style": "normal",
+                      "_key": "681ad38600a0",
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "marks": [],
+                          "text": "",
+                          "_key": "e73b83a251de0",
+                          "_type": "span"
+                        }
+                      ],
+                      "_type": "block"
+                    },
+                    {
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "_type": "span",
+                          "marks": [],
+                          "text": "Besides making algorithms and strategies to make the graph loading instantly we also used technics like lazy loading of images and strategic cache to make sure the experience was the best possible.",
+                          "_key": "426329abff6a0"
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal",
+                      "_key": "4ede1b6cde98"
+                    }
+                  ],
+                  "title": "Performance"
+                },
+                {
+                  "_type": "section",
+                  "_key": "cb9b2ec4d3f0",
+                  "body": [
+                    {
+                      "_key": "9f1b0971daa9",
+                      "markDefs": [],
+                      "children": [
+                        {
+                          "text": "A working application, happy clients and Seedrs got acquired. You could be next, send us a DM and let’s see if we can help.",
+                          "_key": "a110c60650ed0",
+                          "_type": "span",
+                          "marks": []
+                        }
+                      ],
+                      "_type": "block",
+                      "style": "normal"
+                    }
+                  ],
+                  "title": "The result"
+                }
+              ],
+              "related": [
+                {
+                  "secondaryImage": {
+                    "url": "https://cdn.sanity.io/images/efrpqgx9/production/9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png",
+                    "alt": "test3"
+                  },
+                  "shortDescription": "Tryspikes: Empowering real estate innovation through custom software solutions. Discover our success story with Stake’s real estate investment platform, utilizing React Native, web, mobile, AI \u0026 ML development, and strategic expertise.",
+                  "slug": { "current": "stake-mvp-development" },
+                  "shortTitle": "Stake - MVP Mobile Application",
+                  "categories": ["MVP", "Mobile Application"],
+                  "mainImage": {
+                    "url": "https://cdn.sanity.io/images/efrpqgx9/production/33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png",
+                    "alt": "main"
+                  }
+                }
+              ],
+              "categories": ["MVP", "Mobile Application"],
+              "title": "Seedrs - MVP Mobile Application",
+              "keywords": "Tryspikes, Seedrs, Equity crowdfunding, Mobile application development, React Native, GitHub Actions, User growth "
+            },
+            "blogsFooter": [
+              {
+                "slug": {
+                  "current": "3-signs-your-website-urgently-needs-an-update"
+                },
+                "title": "3 Signs Your Website Urgently Needs an Update"
+              },
+              {
+                "slug": {
+                  "current": "benefits-of-working-with-a-software-development-partner"
+                },
+                "title": "The Benefits of Working with a Software Development Partner"
+              },
+              { "slug": { "current": "hello-world" }, "title": "Hello world" },
+              {
+                "slug": {
+                  "current": "idea-to-launch-in-5-steps-mastering-mobile-app-development"
+                },
+                "title": "Idea to Launch in 5 Steps: Mastering Mobile App Development"
+              }
+            ],
+            "casesFooter": [
+              {
+                "slug": { "current": "seedrs-mvp-development" },
+                "shortTitle": "Seedrs - MVP Mobile Application"
+              },
+              {
+                "slug": { "current": "stake-mvp-development" },
+                "shortTitle": "Stake - MVP Mobile Application"
+              }
+            ],
+            "revalidate": 120
+          },
+          "__N_SSG": true
+        },
+        "page": "/case-studies/[id]",
+        "query": { "id": "seedrs-mvp-development" },
+        "buildId": "vlroci5iO1IyG9lz7A7w2",
+        "isFallback": false,
+        "gsp": true,
+        "scriptLoader": [
+          {
+            "id": "google-tag-manager",
+            "strategy": "afterInteractive",
+            "children": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n            j=d.createElement(s),dl=l!='dataLayer'?'\u0026l='+l:'';j.async=true;j.src=\n            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n            })(window,document,'script','dataLayer','GTM-K5J8G74');"
+          }
+        ]
+      }
+    </script>
+    <link
+      rel="preload"
+      href="../_next/static/css/cebee07058b17fff.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="../_next/static/css/cebee07058b17fff.css"
+      data-n-g
+    />
+    <noscript data-n-css></noscript>
+    <script
+      defer
+      nomodule
+      src="../_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+    ></script>
+    <script
+      src="../_next/static/chunks/webpack-b103dfe4e296147d.js"
+      defer
+    ></script>
+    <script
+      src="../_next/static/chunks/framework-46611630e39cfdeb.js"
+      defer
+    ></script>
+    <script
+      src="../_next/static/chunks/main-bbd119741f8f0f9c.js"
+      defer
+    ></script>
+    <script
+      src="../_next/static/chunks/pages/_app-52cad6775b0d5b8d.js"
+      defer
+    ></script>
+    <script src="../_next/static/chunks/970-e81bf8cf3b7d531d.js" defer></script>
+    <script src="../_next/static/chunks/819-2d423a9a0de3dad7.js" defer></script>
+    <script
+      src="../_next/static/chunks/pages/case-studies/%5bid%5d-8466d58a9f332631.js"
+      defer
+    ></script>
+    <script
+      src="../_next/static/vlroci5iO1IyG9lz7A7w2/_buildManifest.js"
+      defer
+    ></script>
+    <script
+      src="../_next/static/vlroci5iO1IyG9lz7A7w2/_ssgManifest.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="h-full">
+        <main>
+          <nav
+            class="fixed top-0 z-50 w-full px-4 py-6 duration-300 ease-in-out lg:px-16 bg-blue-500"
+          >
+            <div
+              class="flex w-full animate-descend-top flex-row items-center justify-between"
+            >
+              <a class="relative z-20 h-[28px] w-[150px]" href="../index.html"
+                ><img
+                  alt="Tryspikes logo"
+                  fetchpriority="high"
+                  decoding="async"
+                  data-nimg="fill"
+                  class="cursor-pointer brightness-[0] invert"
+                  style="
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    color: transparent;
+                  "
+                  src="./assets/logo-transparent-white.png"
+              /></a>
+              <div class="hidden flex-row items-center gap-6 xl:flex">
+                <div class="flex flex-row gap-6">
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-white"
+                  >
+                    <a href="../about-us.html.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>About us</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-white"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-white"
+                  >
+                    <a href="../services.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>Services</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-white"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-blue-200"
+                  >
+                    <a href="../case-studies.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>Case Studies</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-blue-200"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-white"
+                  >
+                    <a href="../blog.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>Blog</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-white"
+                        ></span></p
+                    ></a>
+                  </div>
+                </div>
+                <a
+                  aria-label="Contact us"
+                  class="group relative flex scale-100 flex-row items-center gap-1 border-0 bg-yellow-500 font-lato text-lg font-bold text-gray-500 transition duration-300 ease-in-out hover:scale-110 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-max px-4 py-1"
+                  href="../contact-us.html"
+                  >Contact us</a
+                >
+              </div>
+              <div
+                class="z-30 inline-flex cursor-pointer items-center justify-center rounded-md p-2 text-white xl:hidden"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  class="text-inherit w-8 h-8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  ></path>
+                </svg>
+              </div>
+              <div class="transition-all duration-200 hidden opacity-0">
+                <div
+                  class="flex h-screen flex-col gap-8 bg-blue-500 px-4 pb-6 pt-32 lg:px-16"
+                >
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-white"
+                  >
+                    <a href="../about-us.html.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>About us</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-white"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-white"
+                  >
+                    <a href="../services.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>Services</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-white"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-blue-200"
+                  >
+                    <a href="../case-studies.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>Case Studies</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-blue-200"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <div
+                    class="relative inline cursor-pointer whitespace-nowrap font-lato text-xl font-light leading-[1.125rem] transition-all duration-300 lg:text-lg lg:font-normal text-white"
+                  >
+                    <a href="../blog.html"
+                      ><p class="group relative w-fit cursor-pointer">
+                        <span>Blog</span
+                        ><span
+                          class="absolute -bottom-1 left-0 h-[2px] w-0 transition-all duration-300 group-hover:w-full bg-white"
+                        ></span></p
+                    ></a>
+                  </div>
+                  <a
+                    aria-label="Contact us"
+                    class="group relative flex scale-100 flex-row items-center gap-1 border-0 bg-yellow-500 font-lato text-lg font-bold text-gray-500 transition duration-300 ease-in-out hover:scale-110 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-max p-4"
+                    href="../contact-us.html"
+                    >Contact us<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                      class="text-inherit w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                      ></path></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section
+            class="mb-20 mt-14 flex h-full flex-col overflow-hidden bg-white"
+          >
+            <div
+              class="m-auto grid grid-cols-1 px-6 pt-40 md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0 lg:pt-20"
+            >
+              <div
+                class="m-auto grid w-full grid-cols-1 gap-20 lg:col-start-2 lg:grid-cols-2"
+              >
+                <div class="z-20 flex w-full flex-col justify-center">
+                  <a
+                    aria-label="Case Studies"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base leading-5 text-gray-400 md:gap-2 lg:text-sm lg:leading-[0.875rem] scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-full"
+                    href="../case-studies.html"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                      class="text-inherit w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+                      ></path></svg
+                    >CASE STUDIES</a
+                  >
+                  <p
+                    class="mt-8 font-lato text-base font-normal leading-[1.125rem] text-blue-300"
+                  >
+                    MVP   ·  Mobile Application
+                  </p>
+                  <h1
+                    class="mt-4 font-lato text-4xl font-black leading-[3.125rem] text-blue-500 lg:w-[602px]"
+                  >
+                    Seedrs - MVP Mobile Application
+                  </h1>
+                  <div class="mt-4">
+                    <div>
+                      <p
+                        class="mt-2 font-lato text-base font-normal leading-[1.125rem] text-gray-400 lg:w-[602px]"
+                      >
+                        Seedrs is a platform for equity crowdfunding based in
+                        the United Kingdom. It providers a platform for startups
+                        and growth-focused businesses to raise capital by
+                        connecting them with a network of investors.
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="mt-2 font-lato text-base font-normal leading-[1.125rem] text-gray-400 lg:w-[602px]"
+                      ></p>
+                    </div>
+                    <div>
+                      <p
+                        class="mt-2 font-lato text-base font-normal leading-[1.125rem] text-gray-400 lg:w-[602px]"
+                      >
+                        After trying to develop their Mobile Application with an
+                        internal team Seedrs invited us to help them develop
+                        their Mobile Application. They are in the market and
+                        have their own branding so they wanted to use their own
+                        designers.
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="mt-2 font-lato text-base font-normal leading-[1.125rem] text-gray-400 lg:w-[602px]"
+                      ></p>
+                    </div>
+                    <div>
+                      <p
+                        class="mt-2 font-lato text-base font-normal leading-[1.125rem] text-gray-400 lg:w-[602px]"
+                      >
+                        So after we understand the business and received the
+                        early mockups we started our development efforts.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="relative mb-12 hidden justify-center lg:flex">
+            <img
+              alt="main"
+              loading="lazy"
+              width="2880"
+              height="1100"
+              decoding="async"
+              data-nimg="1"
+              style="
+                color: transparent;
+                object-fit: contain;
+                background: center;
+              "
+              srcset="
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=3840&amp;q=75 1x
+              "
+              src="../_next/51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100fc1a.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=3840&amp;q=75"
+            />
+          </div>
+          <div class="relative mb-12 flex h-[400px] justify-center lg:hidden">
+            <img
+              alt="main"
+              loading="lazy"
+              decoding="async"
+              data-nimg="fill"
+              style="
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                object-fit: cover;
+                color: transparent;
+                background: center;
+              "
+              sizes="100vw"
+              srcset="
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=640&amp;q=75   640w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=750&amp;q=75   750w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=828&amp;q=75   828w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=1080&amp;q=75 1080w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=1200&amp;q=75 1200w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=1920&amp;q=75 1920w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=2048&amp;q=75 2048w,
+                /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=3840&amp;q=75 3840w
+              "
+              src="../_next/51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100fc1a.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F51d6545b50ca322fedffd1148305c43c97adb08b-2880x1100.png&amp;w=3840&amp;q=75"
+            />
+          </div>
+          <div class="pb-[3rem]">
+            <div>
+              <section
+                class="grid grid-cols-1 px-6 py-4 md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0"
+              >
+                <div class="flex flex-col lg:col-start-2">
+                  <h2
+                    class="font-lato text-3xl font-bold leading-9 text-blue-500"
+                  >
+                    Challenge
+                  </h2>
+                  <div class="mt-8 space-y-4 overflow-visible">
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        >
+                          Seedrs was losing potential revenue, every day that
+                          passes and they didn’t have a mobile application where
+                          the users could invest. There are extensive literature
+                          showing that most of the investors on this type of
+                          apps are acquired and invest through their mobile, so
+                          they really had a tight deadline for an early working
+                          version of the application.
+                        </p>
+                      </div>
+                    </div>
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        ></p>
+                      </div>
+                    </div>
+                    <div class>
+                      <div class="inline">
+                        <div class="mt-8">
+                          <div
+                            class="relative hidden w-full justify-center sm:flex lg:ml-[-100px] lg:w-[1000px]"
+                          >
+                            <img
+                              alt="mvp_examples_image"
+                              loading="lazy"
+                              width="1920"
+                              height="1080"
+                              decoding="async"
+                              data-nimg="1"
+                              style="color: transparent; object-fit: contain"
+                              srcset="
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=1920&amp;q=75 1x,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=3840&amp;q=75 2x
+                              "
+                              src="../_next/mvp-examples1415.png?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=3840&amp;q=75"
+                            />
+                          </div>
+                          <div
+                            class="relative flex h-[400px] w-full justify-center sm:hidden"
+                          >
+                            <img
+                              alt="mvp_examples_image"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                left: 0;
+                                top: 0;
+                                right: 0;
+                                bottom: 0;
+                                object-fit: cover;
+                                color: transparent;
+                                background: center;
+                              "
+                              sizes="100vw"
+                              srcset="
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=640&amp;q=75   640w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=750&amp;q=75   750w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=828&amp;q=75   828w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=1080&amp;q=75 1080w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=1200&amp;q=75 1200w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=1920&amp;q=75 1920w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=2048&amp;q=75 2048w,
+                                /_next/image?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=3840&amp;q=75 3840w
+                              "
+                              src="../_next/mvp-examples1415.png?url=https%3A%2F%2Fwv-landing-public.s3.eu-west-1.amazonaws.com%2Fmvp-examples.png&amp;w=3840&amp;q=75"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div>
+              <section
+                class="grid grid-cols-1 px-6 py-4 md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0"
+              >
+                <div class="flex flex-col lg:col-start-2">
+                  <h2
+                    class="font-lato text-3xl font-bold leading-9 text-blue-500"
+                  >
+                    Fast and quality
+                  </h2>
+                  <div class="mt-8 space-y-4 overflow-visible">
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        >
+                          As you already read above we had really tight deadline
+                          constraints to publish something that’s working really
+                          fast without losing Tryspikes’s high-quality
+                          standards.
+                        </p>
+                      </div>
+                    </div>
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        ></p>
+                      </div>
+                    </div>
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        >
+                          We used React Native to tackle this issue, we could
+                          write code in one codebase and create all the native
+                          platforms needed (iOS and Android). In addition with
+                          GitHub actions, Testflight and Firebase it allowed us
+                          to create faster builds and to deliver on-time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div>
+              <section
+                class="grid grid-cols-1 px-6 py-[3rem] md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0"
+              >
+                <div
+                  class="flex flex-col items-center justify-center gap-8 text-center lg:col-start-2"
+                >
+                  <span
+                    class="font-lato text-lg font-bold leading-5 text-gray-300"
+                    >Technologies used</span
+                  >
+                  <div class="mt-8 flex w-full flex-wrap justify-center gap-4">
+                    <div
+                      class="relative m-auto flex h-[62px] w-[72px] justify-center"
+                    >
+                      <img
+                        alt="react_native"
+                        loading="lazy"
+                        decoding="async"
+                        data-nimg="fill"
+                        style="
+                          position: absolute;
+                          height: 100%;
+                          width: 100%;
+                          left: 0;
+                          top: 0;
+                          right: 0;
+                          bottom: 0;
+                          color: transparent;
+                        "
+                        src="../assets/technologies/react_native.svg"
+                      />
+                    </div>
+                    <div
+                      class="relative m-auto flex h-[62px] w-[72px] justify-center"
+                    >
+                      <img
+                        alt="typescript"
+                        loading="lazy"
+                        decoding="async"
+                        data-nimg="fill"
+                        style="
+                          position: absolute;
+                          height: 100%;
+                          width: 100%;
+                          left: 0;
+                          top: 0;
+                          right: 0;
+                          bottom: 0;
+                          color: transparent;
+                        "
+                        src="../assets/technologies/typescript.svg"
+                      />
+                    </div>
+                    <div
+                      class="relative m-auto flex h-[62px] w-[72px] justify-center"
+                    >
+                      <img
+                        alt="github_actions"
+                        loading="lazy"
+                        decoding="async"
+                        data-nimg="fill"
+                        style="
+                          position: absolute;
+                          height: 100%;
+                          width: 100%;
+                          left: 0;
+                          top: 0;
+                          right: 0;
+                          bottom: 0;
+                          color: transparent;
+                        "
+                        src="../assets/technologies/github_actions.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="grid grid-cols-1 px-6 py-4 md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0"
+              >
+                <div class="flex flex-col lg:col-start-2">
+                  <h2
+                    class="font-lato text-3xl font-bold leading-9 text-blue-500"
+                  >
+                    Performance
+                  </h2>
+                  <div class="mt-8 space-y-4 overflow-visible">
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        >
+                          Being an application where users can invest it’s
+                          mandatory to have some sort of charting, where users
+                          can see clearly how is their investment growing.
+                        </p>
+                      </div>
+                    </div>
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        ></p>
+                      </div>
+                    </div>
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        >
+                          Besides making algorithms and strategies to make the
+                          graph loading instantly we also used technics like
+                          lazy loading of images and strategic cache to make
+                          sure the experience was the best possible.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div>
+              <section
+                class="grid grid-cols-1 px-6 py-4 md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0"
+              >
+                <div class="flex flex-col lg:col-start-2">
+                  <h2
+                    class="font-lato text-3xl font-bold leading-9 text-blue-500"
+                  >
+                    The result
+                  </h2>
+                  <div class="mt-8 space-y-4 overflow-visible">
+                    <div class>
+                      <div class="inline">
+                        <p
+                          class="inline font-lato text-lg leading-[1.125rem] text-gray-400 font-normal"
+                        >
+                          A working application, happy clients and Seedrs got
+                          acquired. You could be next, send us a DM and let’s
+                          see if we can help.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <section
+            class="grid grid-cols-1 px-6 py-[3rem] md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0 lg:pb-[6rem]"
+          >
+            <div
+              class="m-auto flex w-full flex-col lg:col-start-2 lg:items-center lg:justify-center"
+            >
+              <div class="flex flex-row justify-between lg:w-full">
+                <div class="flex flex-col text-start">
+                  <div class="mb-2">
+                    <span
+                      class="font-lato text-lg font-bold leading-5 text-blue-200"
+                      >CASE STUDIES</span
+                    >
+                  </div>
+                  <h2
+                    class="font-lato text-3xl font-bold leading-9 lg:text-4xl lg:leading-[3.125rem] text-gray-500"
+                  >
+                    <p>Still intrigued?</p>
+                    <p>Check more of our</p>
+                    <p>case studies</p>
+                  </h2>
+                </div>
+                <div class="hidden lg:mt-[8.5rem] lg:block">
+                  <a
+                    aria-label="See all button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-lg text-blue-300 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../case-studies.html"
+                    >See all
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                      class="text-inherit w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                      ></path></svg
+                  ></a>
+                </div>
+              </div>
+              <div
+                class="mt-12 grid w-full grid-cols-1 items-center justify-center gap-[0.625rem] lg:grid-cols-3"
+              >
+                <a
+                  class="m-auto flex w-full lg:w-[259px]"
+                  href="stake-mvp-development.html"
+                  ><div
+                    class="group relative flex max-h-[420px] w-full flex-col bg-blue-300 hover:animate-change-opacity hover:bg-blue-100 lg:w-[259px] lg:bg-blue-100 lg:hover:bg-blue-300"
+                  >
+                    <div
+                      class="relative left-0 top-0 z-20 block h-[160px] w-full group-hover:hidden"
+                    >
+                      <img
+                        alt="main"
+                        loading="lazy"
+                        decoding="async"
+                        data-nimg="fill"
+                        style="
+                          position: absolute;
+                          height: 100%;
+                          width: 100%;
+                          left: 0;
+                          top: 0;
+                          right: 0;
+                          bottom: 0;
+                          object-fit: cover;
+                          color: transparent;
+                          font-size: 0;
+                        "
+                        sizes="auto"
+                        srcset="
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=16&amp;q=75     16w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=32&amp;q=75     32w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=48&amp;q=75     48w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=64&amp;q=75     64w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=96&amp;q=75     96w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=128&amp;q=75   128w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=256&amp;q=75   256w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=384&amp;q=75   384w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=640&amp;q=75   640w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=750&amp;q=75   750w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=828&amp;q=75   828w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=1080&amp;q=75 1080w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=1200&amp;q=75 1200w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=1920&amp;q=75 1920w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=2048&amp;q=75 2048w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=3840&amp;q=75 3840w
+                        "
+                        src="../_next/33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100caa8.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F33f7331aba09a5c480d287c8c25272f586d1b055-2880x1100.png&amp;w=3840&amp;q=75"
+                      />
+                    </div>
+                    <div
+                      class="relative left-0 top-0 z-10 hidden h-[160px] w-full group-hover:block"
+                    >
+                      <img
+                        alt="test3"
+                        loading="lazy"
+                        decoding="async"
+                        data-nimg="fill"
+                        style="
+                          position: absolute;
+                          height: 100%;
+                          width: 100%;
+                          left: 0;
+                          top: 0;
+                          right: 0;
+                          bottom: 0;
+                          object-fit: cover;
+                          color: transparent;
+                          font-size: 0;
+                        "
+                        sizes="auto"
+                        srcset="
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=16&amp;q=75     16w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=32&amp;q=75     32w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=48&amp;q=75     48w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=64&amp;q=75     64w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=96&amp;q=75     96w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=128&amp;q=75   128w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=256&amp;q=75   256w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=384&amp;q=75   384w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=640&amp;q=75   640w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=750&amp;q=75   750w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=828&amp;q=75   828w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=1080&amp;q=75 1080w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=1200&amp;q=75 1200w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=1920&amp;q=75 1920w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=2048&amp;q=75 2048w,
+                          /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=3840&amp;q=75 3840w
+                        "
+                        src="../_next/9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100cf36.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fefrpqgx9%2Fproduction%2F9c8c98b1329e33f55330998cab36d7fc84ae75c0-2880x1100.png&amp;w=3840&amp;q=75"
+                      />
+                    </div>
+                    <div class="flex flex-col gap-4 px-4 py-8">
+                      <p
+                        class="font-lato text-base font-normal leading-[1.125rem] text-blue-200 group-hover:text-blue-300 lg:text-blue-300 lg:group-hover:text-blue-200"
+                      >
+                        MVP   ·  Mobile Application
+                      </p>
+                      <h3
+                        class="line-clamp-2 h-[50px] font-lato text-xl font-black leading-6 text-white group-hover:text-gray-500 lg:text-gray-500 lg:group-hover:text-white"
+                      >
+                        Stake - MVP Mobile Application
+                      </h3>
+                      <p
+                        class="line-clamp-3 font-lato text-lg font-normal leading-5 text-white group-hover:text-gray-500 lg:text-base lg:leading-[1.125rem] lg:text-gray-500 lg:group-hover:text-white"
+                      >
+                        Tryspikes: Empowering real estate innovation through
+                        custom software solutions. Discover our success story
+                        with Stake’s real estate investment platform, utilizing
+                        React Native, web, mobile, AI &amp; ML development, and
+                        strategic expertise.
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="m-auto mt-4 w-full lg:hidden">
+                <a
+                  aria-label="Explore our case studies button"
+                  class="group relative flex scale-100 flex-row items-center gap-1 border-2 border-blue-300 font-lato text-lg text-blue-300 transition duration-300 ease-in-out hover:scale-105 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-full justify-center p-4"
+                  href="../case-studies.html"
+                  >Explore our case studies
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="text-inherit w-5 h-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="grid grid-cols-1 overflow-hidden bg-blue-300 px-6 py-40 transition-all duration-[1s] ease-in-out md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0 lg:py-14 opacity-0"
+          >
+            <div
+              class="m-auto flex w-full flex-col items-center justify-center gap-14 text-center lg:col-start-2 lg:grid lg:grid-cols-3 lg:gap-12 lg:text-start"
+            >
+              <div
+                class="flex h-[130px] w-[250px] duration-[1s] ease-in-out sm:w-[300px] lg:hidden translate-x-[30%] opacity-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="301"
+                  height="128"
+                  fill="none"
+                  viewBox="0 0 301 128"
+                >
+                  <g clip-path="url(#a)">
+                    <path
+                      fill="#fff"
+                      d="M260.524 93.963 300.5 114.33l-41.88-12.927 1.904-7.44Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m248.933 94.514 39.983 20.367-41.88-12.927 1.897-7.44ZM164.351 118.073l44.773 9.808-45.289-4.633.516-5.175ZM175.521 25.927l57.737 33.046-60.012-25.78 2.275-7.266Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m175.826 31.862 40.855 22.743-42.955-15.385 2.1-7.358Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m100.284 50.523 11.628.981 5.683.615c31.197.688 14.236-6.349 15.631-8.257l-4.026-.44c-3.524-.33-6.94-.615-10.174-.78-3.234-.165-6.308-.275-9.134-.294-2.827-.018-5.422 0-7.718.12-2.297.119-4.295.266-5.945.367l-3.83.266-1.358.1s.45-.174 1.322-.403c.872-.23 2.18-.505 3.808-.78.821-.128 1.737-.23 2.733-.348l3.234-.248c2.303-.147 4.912-.266 7.754-.303 2.841-.037 5.922 0 9.171.101 1.402.046 2.841.11 4.302.193h.232c3.009.165 6.119.486 9.273.78 3.154.293 6.352.724 9.556 1.229 3.205.504 6.381.917 9.52 1.495 3.14.578 6.214 1.165 9.186 1.835 2.972.67 5.813 1.386 8.546 2.046 2.732.66 5.261 1.385 7.609 2.092 2.347.706 4.498 1.385 6.402 1.972s3.553 1.175 4.912 1.642l4.266 1.523-1.09-.486c-.727-.33-1.759-.789-3.096-1.349a217.21 217.21 0 0 0-4.854-1.954 124.708 124.708 0 0 0-6.359-2.266 291.907 291.907 0 0 0-7.587-2.385c-2.703-.807-5.573-1.514-8.553-2.211a195.393 195.393 0 0 0-9.207-1.936c-1.57-.303-3.162-.578-4.76-.826l-4.804-.67c-2.18-.33-4.418-.577-6.613-.807 14.403-4.165 9.055-16.816 10.465-20.45l1.082.12.727.092.778.138 3.117.578c2.079.32 4.114.917 6.134 1.44l1.519.394c.501.147.988.34 1.453.496l2.95 1 .727.247.727.312 1.453.606c.938.431 1.89.78 2.798 1.257 1.795.981 3.634 1.835 5.269 2.972.843.55 1.693 1.037 2.492 1.624l2.348 1.77a65.103 65.103 0 0 1 8.117 7.698c2.376 2.624 4.426 5.239 6.228 7.56l4.643 6.091 1.737 2.23 1.33 1.596 1.105 1.321-1.039-1.45-1.236-1.706-1.635-2.34-4.36-6.375a299.781 299.781 0 0 0-2.769-3.863c-.981-1.348-2.064-2.752-3.248-4.092a62.642 62.642 0 0 0-8.089-8.174l-2.369-1.89c-.806-.633-1.671-1.156-2.521-1.752-1.679-1.23-3.532-2.12-5.363-3.174-.923-.505-1.897-.918-2.849-1.34l-1.454-.651-.726-.33-.727-.266-3.001-1.083c-.502-.174-1.003-.367-1.519-.523l-1.541-.413c-2.056-.55-4.127-1.165-6.242-1.505l-3.161-.605-.792-.156-.822-.092-1.584-.192c-2.115-.211-4.2-.578-6.358-.57-2.159.01-4.281-.229-6.388 0l-3.147.175c-1.046.074-2.078.303-3.103.44l-1.541.248a12.36 12.36 0 0 0-1.518.285l-2.987.77c-.487.138-.989.23-1.454.404l-1.453.514c-.952.348-1.897.679-2.82 1.055l-2.688 1.275c-.444.22-.887.413-1.316.651-.429.239-.85.487-1.264.734-.836.496-1.672.918-2.471 1.459l-2.326 1.578c-.763.505-1.489 1.073-2.18 1.624l-2.085 1.614c-2.682 2.193-5.087 4.322-7.18 6.202-1.054.918-2.05 1.835-2.972 2.597-.923.761-1.774 1.523-2.566 2.128l-2.093 1.66-1.584 1.147-1.323.918c-2.95 1.835-6.925 3.064-11.503 3.954 2.18 0 4.36.092 6.598.165 6.926.248 14.294.68 21.91 1.239ZM269.688 99.597c-1.73-.918-4.288-2.212-7.58-3.771-6.591-3.128-16.126-7.34-27.753-11.605-11.627-4.267-25.333-8.762-40.158-12.845a513.215 513.215 0 0 0-22.949-5.688 553.629 553.629 0 0 0-23.858-4.761l-6.017-1.028-6.018-.917-6.002-.917c-1.999-.312-3.99-.633-5.974-.918l-11.772-1.56-11.526-1.266c-7.572-.734-14.898-1.348-21.86-1.733-6.961-.386-13.53-.615-19.62-.67-6.09-.055-11.628.064-16.577.257h-.196c-15.16 1.312-28.342 3.56-29.214 12.43V65.854c.156 1.176.557 2.278 1.163 3.193a17.867 17.867 0 0 0 3.205 3.734 36.501 36.501 0 0 0 4.818 3.67 72.939 72.939 0 0 0 6.039 3.569 119.149 119.149 0 0 0 6.925 3.394 174.977 174.977 0 0 0 7.522 3.202 291.47 291.47 0 0 0 7.848 2.963c2.638.954 5.29 1.835 7.907 2.698 2.616.862 5.196 1.65 7.696 2.412 5 1.505 9.694 2.753 13.72 3.826 4.026 1.074 7.405 1.835 9.76 2.367 2.354.532 3.713.817 3.713.817l-13.313-4.065a1016.85 1016.85 0 0 1-13.619-4.284l-7.652-2.459c-2.609-.917-5.247-1.835-7.87-2.752-.538-.184-1.069-.385-1.606-.578-10.174-4.587-19.272-9.734-23.444-14.679-5.029-5.945 3.714-10.394 14.454-12.44h-2.906l-3.336.119c-2.18.055-4.099.174-5.88.23-1.78.054-3.35.183-4.73.229l-1.911.119c-.589 0-1.12.055-1.592.1-1.904.13-2.907.248-2.907.248s.248-.1.727-.266c.48-.165 1.192-.394 2.13-.66.937-.266 2.1-.523 3.473-.817.683-.137 1.453-.256 2.18-.394a31.152 31.152 0 0 1 2.515-.376l2.812-.34c.988-.11 2.013-.165 3.089-.247l3.357-.23 3.633-.137c1.243 0 2.53-.11 3.852-.12l4.07-.055c2.79-.055 5.719 0 8.778 0 3.06 0 6.243.138 9.542.257l5.021.193 5.182.294 5.32.311c1.794.11 3.633.276 5.442.413l5.567.431 2.82.22 2.848.276 11.628 1.138 11.881 1.385c4.005.431 7.994 1.009 12.042 1.541s8.059 1.037 12.143 1.68a480.886 480.886 0 0 1 24.134 4.228c7.943 1.606 15.734 3.349 23.255 5.239 7.521 1.89 14.752 3.899 21.583 5.972 6.831 2.074 13.248 4.257 19.156 6.376 11.802 4.239 21.511 8.377 28.255 11.505a236.834 236.834 0 0 1 7.805 3.798l.668.358a9.104 9.104 0 0 0-.77-3.413l-1.068-.45ZM119.055 113.468c5.254 1.284 11.773 2.614 19.81 3.853 8.154 1.266 14.811 1.954 20.188 2.312a288.307 288.307 0 0 0-39.998-6.165ZM100.771 107.312a44.914 44.914 0 0 0 5.182 2.247c22.377.806 44.647 4.233 66.523 10.239a40.325 40.325 0 0 0 5.399-.615c-25.376-6.798-51.177-10.771-77.104-11.871Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m209.24 86.128 4.178 1.129 4.041 1.155c2.66.744 5.21 1.542 7.659 2.285 4.906 1.514 9.39 2.945 13.35 4.284l5.53 1.936 4.68 1.743c2.813 1.092 5.036 1.927 6.541 2.56l2.303.917-2.267-1.055c-1.453-.706-3.633-1.679-6.453-2.871l-4.644-1.909-5.494-2.146c-3.938-1.468-8.386-3.129-13.277-4.725-2.449-.799-4.992-1.652-7.645-2.459l-4.033-1.247-4.178-1.23c-2.813-.844-5.727-1.633-8.721-2.45a563.065 563.065 0 0 0-9.113-2.385c-3.096-.789-6.264-1.495-9.447-2.266l-9.716-2.138-9.905-1.963-9.992-1.835c-3.343-.55-6.686-1.119-10.022-1.623l-9.941-1.46c-6.599-.917-13.081-1.834-19.381-2.504-3.147-.385-6.243-.697-9.266-1.036-3.023-.34-6.003-.579-8.888-.826-5.813-.505-11.25-.918-16.292-1.202l-7.268-.395a304.297 304.297 0 0 0-6.54-.21 362.56 362.56 0 0 0-10.632-.147c-2.943 0-5.268.045-6.845.091l-2.42.074 2.42.064c1.577 0 3.895.138 6.838.248 2.943.11 6.54.302 10.61.587 4.07.284 8.72.633 13.75 1.055A567.21 567.21 0 0 1 95 65.788c5.756.652 11.831 1.377 18.11 2.184 3.132.413 6.322.835 9.549 1.294l9.781 1.385 9.934 1.495 9.993 1.615 9.977 1.761 9.876 1.909 9.709 2.027c3.19.725 6.352 1.404 9.447 2.147 6.221 1.541 12.18 2.982 17.863 4.523ZM267.943 110.807l-.566.294c-.415.202-.872.477-1.454.688a31.6 31.6 0 0 1-3.946 1.403l-1.192.34-1.279.303c-.864.229-1.787.412-2.754.614a95.66 95.66 0 0 1-6.242 1.009c-2.224.294-4.579.542-7.006.762-4.869.459-10.072.725-15.261.872-5.188.146-10.413.275-15.261.275-4.847 0-9.447 0-13.357-.074l-13.037-.22 3.583.294c2.275.156 5.53.413 9.447.587 3.917.174 8.474.385 13.364.431 4.891.046 10.116 0 15.334-.119 2.609-.092 5.218-.239 7.783-.404 2.565-.165 5.087-.367 7.529-.624 2.441-.257 4.796-.569 7.027-.917a82.777 82.777 0 0 0 6.25-1.211c.966-.239 1.889-.441 2.761-.707l1.272-.376 1.192-.403a30.425 30.425 0 0 0 3.924-1.615c.476-.225.942-.482 1.395-.771l.56-.33.443-.33.807-.597-.829.542-.487.284Z"
+                    ></path>
+                    <path
+                      fill="#0B47DD"
+                      d="M262.973 87.835c-6.541-3.954-15.407-7.459-23.982-10.853-12.136-4.771-24.708-9.716-30.318-15.698a115.457 115.457 0 0 1-9.382-11.926c-9.752-13.56-20.813-28.927-50.564-33.523-29.752-4.597-43.421 6.954-55.477 17.137a97.216 97.216 0 0 1-11.38 8.707c-6.62 4.092-19.738 5.064-32.419 6.009-8.997.67-18.298 1.358-25.37 3.22-3.357.917-13.574 3.55-14.534 13.248-.341 3.578 1.141 7.055 4.419 10.34 2.398 2.412 5.814 4.816 10.377 7.339 7.34 4.046 17.645 8.34 30.638 12.743 17.398 5.908 35.108 10.477 41.851 12.156a4.738 4.738 0 0 0 .435 2.088c.297.631.728 1.144 1.244 1.481.385.247 9.847 6.229 39.969 10.89 30.122 4.66 40.463 1.733 40.892 1.605.564-.17 1.078-.536 1.485-1.057.407-.52.691-1.174.819-1.888 6.867.422 24.933 1.376 42.941.918 13.451-.322 24.272-1.349 32.164-3.046 4.934-1.065 8.721-2.358 11.482-3.964 3.801-2.192 5.908-5.119 6.257-8.697.981-9.651-8.466-15.358-11.547-17.23ZM83.214 45.202l1.323-.918 1.584-1.147 2.093-1.66c.792-.606 1.642-1.33 2.565-2.128.923-.799 1.919-1.652 2.972-2.597 2.108-1.835 4.499-4.01 7.18-6.202l2.086-1.614c.727-.55 1.453-1.12 2.18-1.624l2.325-1.578c.8-.505 1.635-.964 2.471-1.459.414-.248.836-.495 1.265-.734.428-.238.872-.431 1.315-.651l2.689-1.276c.923-.376 1.867-.706 2.819-1.055l1.454-.513c.48-.175.981-.266 1.453-.404l2.987-.77a12.36 12.36 0 0 1 1.519-.285l1.54-.248c1.025-.137 2.057-.367 3.104-.44l3.146-.174c2.108-.202 4.244 0 6.388 0s4.244.357 6.359.569l1.584.192.821.092.792.156 3.161.605c2.115.34 4.186.918 6.243 1.505l1.541.413c.515.156 1.017.348 1.518.523l3.002 1.082.726.266.727.33 1.453.652c.952.459 1.926.835 2.849 1.34 1.831 1.054 3.684 1.944 5.363 3.174.85.596 1.715 1.119 2.522 1.752l2.369 1.89a62.692 62.692 0 0 1 8.088 8.174c1.185 1.358 2.224 2.753 3.249 4.092 1.024 1.34 1.911 2.642 2.768 3.862l4.361 6.376 1.635 2.34 1.235 1.706 1.039 1.413-1.104-1.321-1.33-1.596-1.737-2.23-4.644-6.091c-1.802-2.321-3.851-4.936-6.228-7.56a64.98 64.98 0 0 0-8.117-7.697l-2.347-1.77c-.8-.588-1.65-1.074-2.493-1.625-1.657-1.137-3.473-1.99-5.268-2.972-.909-.477-1.861-.826-2.798-1.257l-1.454-.606-.726-.312-.727-.247-2.95-1c-.495-.156-.982-.349-1.454-.496l-1.519-.394c-2.02-.523-4.055-1.12-6.133-1.44l-3.118-.578-.777-.138-.727-.092-1.083-.12c-1.41 3.67 3.939 16.285-10.464 20.45 2.18.23 4.411.477 6.613.808l4.803.67c1.599.247 3.19.523 4.76.825 3.147.578 6.228 1.248 9.208 1.936 2.979.688 5.849 1.413 8.553 2.211 2.703.798 5.247 1.587 7.587 2.385 2.34.798 4.476 1.542 6.358 2.267a190.13 190.13 0 0 1 4.855 1.954 89 89 0 0 1 3.096 1.348l1.09.486-4.266-1.523a264.134 264.134 0 0 0-4.913-1.642 208.832 208.832 0 0 0-6.402-1.972 276.044 276.044 0 0 0-7.609-2.092 220.957 220.957 0 0 0-8.546-2.046 257.155 257.155 0 0 0-9.185-1.835c-3.14-.56-6.315-1.036-9.52-1.495-3.205-.459-6.402-.835-9.556-1.23-3.154-.394-6.265-.614-9.273-.78h-.233a196.823 196.823 0 0 0-13.473-.294c-2.841.038-5.45.157-7.754.304l-3.234.248c-.995.119-1.911.22-2.732.348-1.643.275-2.907.532-3.808.78-.901.248-1.323.404-1.323.404l1.36-.101 3.829-.266c1.65-.101 3.633-.257 5.944-.367 2.311-.11 4.891-.147 7.718-.12 2.827.028 5.894.11 9.135.294 3.241.183 6.656.45 10.174.78l4.026.44c-1.396 1.908 15.566 8.945-15.632 8.257l-5.683-.614-11.627-.982c-7.616-.55-14.985-.982-21.976-1.193-2.238-.073-4.44-.12-6.598-.165 4.643-.9 8.619-2.138 11.569-3.963Zm55.651 72.119c-8.037-1.239-14.534-2.569-19.81-3.853a288.374 288.374 0 0 1 39.969 6.165c-5.348-.358-12.005-1.046-20.144-2.312h-.015Zm33.611 2.477c-21.876-6.006-44.146-9.433-66.523-10.238a45.095 45.095 0 0 1-5.182-2.248c25.927 1.1 51.728 5.073 77.104 11.871-1.79.327-3.592.532-5.399.615Zm9.447-40.275-9.709-2.028-9.876-1.908-9.978-1.762-9.992-1.614-9.934-1.496-9.781-1.385c-3.227-.459-6.417-.917-9.549-1.293a1336.797 1336.797 0 0 0-18.11-2.184c-5.756-.66-11.206-1.174-16.242-1.615-5.036-.44-9.65-.78-13.75-1.055a451.47 451.47 0 0 0-10.61-.587 359.992 359.992 0 0 0-6.838-.248l-2.42-.064 2.42-.073c1.577 0 3.895-.101 6.846-.092 2.95.01 6.54 0 10.632.147 2.049 0 4.236.12 6.54.21l7.267.395a644.02 644.02 0 0 1 16.293 1.202c2.907.248 5.814.532 8.888.826 3.074.293 6.119.651 9.265 1.037a675.44 675.44 0 0 1 19.381 2.504l9.942 1.459c3.335.505 6.678 1.073 10.021 1.624l9.993 1.835 9.905 1.963 9.716 2.138c3.19.77 6.358 1.477 9.447 2.266 3.088.789 6.148 1.54 9.113 2.385 2.965.844 5.886 1.606 8.72 2.45l4.179 1.229 4.033 1.248c2.653.807 5.196 1.66 7.645 2.458 4.891 1.597 9.338 3.257 13.277 4.725l5.494 2.147 4.644 1.908c2.79 1.193 4.97 2.165 6.453 2.872l2.267 1.055-2.304-.918c-1.453-.633-3.713-1.468-6.54-2.56l-4.68-1.743-5.53-1.935c-3.961-1.34-8.445-2.753-13.35-4.285-2.449-.743-5-1.54-7.659-2.284l-4.041-1.156-4.178-1.129c-5.654-1.54-11.628-2.981-17.834-4.458-3.103-.807-6.257-1.486-9.447-2.211h-.029Zm86.478 31.046-.443.33-.56.33c-.453.289-.919.546-1.395.771a30.425 30.425 0 0 1-3.924 1.615l-1.192.403-1.272.376c-.872.266-1.795.468-2.761.707-1.926.449-4.026.844-6.25 1.211a96.212 96.212 0 0 1-7.027.917c-2.442.22-4.964.45-7.529.624-2.565.174-5.174.312-7.783.404-5.218.156-10.443.165-15.333.119-4.891-.046-9.448-.257-13.365-.431-3.917-.175-7.165-.431-9.447-.587l-3.583-.294 13.038.22c3.909.083 8.473.074 13.357.074 4.883 0 10.094-.065 15.26-.276 5.167-.211 10.414-.412 15.261-.871a190.93 190.93 0 0 0 7.006-.762 90.429 90.429 0 0 0 6.242-1.009c.967-.202 1.89-.385 2.754-.614l1.279-.303 1.192-.34a31.6 31.6 0 0 0 3.946-1.403c.545-.211 1.003-.487 1.454-.688l.567-.294.457-.294.829-.541-.778.606Zm2.391-7.34a236.667 236.667 0 0 0-7.805-3.798c-6.744-3.128-16.452-7.266-28.254-11.504a452.814 452.814 0 0 0-19.156-6.377c-6.802-2.1-14.069-4.082-21.584-5.972a463.015 463.015 0 0 0-23.254-5.239c-7.95-1.568-16.031-3.018-24.134-4.23-4.084-.641-8.103-1.128-12.143-1.678-4.041-.55-8.038-1.11-12.042-1.541l-11.882-1.386-11.627-1.137-2.849-.275-2.82-.22-5.566-.432c-1.839-.137-3.634-.302-5.443-.413l-5.32-.312-5.181-.293-5.022-.193c-3.299-.12-6.482-.247-9.541-.257-3.06-.009-5.988-.091-8.779 0l-4.07.055c-1.322 0-2.608.083-3.851.12l-3.634.137-3.357.23c-1.075.082-2.1.137-3.088.247l-2.813.34c-.886.092-1.73.238-2.514.376-.785.138-1.534.257-2.18.394-1.374.294-2.537.55-3.474.817-.938.266-1.657.477-2.13.66-.472.184-.726.267-.726.267s1.025-.12 2.907-.248a32.966 32.966 0 0 1 1.591-.101l1.912-.12c1.38-.045 2.957-.174 4.73-.229 1.774-.055 3.736-.174 5.88-.229l3.335-.12h2.907c-10.74 2.047-19.483 6.496-14.454 12.441 4.171 4.936 13.24 10.046 23.443 14.679.538.193 1.069.394 1.606.578 2.624.917 5.262 1.835 7.87 2.752l7.653 2.532a1018.4 1018.4 0 0 0 13.618 4.285l13.314 4.064s-1.352-.275-3.714-.817a335.86 335.86 0 0 1-9.76-2.366 373.961 373.961 0 0 1-13.72-3.826c-2.5-.762-5.087-1.542-7.696-2.413-2.608-.872-5.261-1.752-7.906-2.697a255.818 255.818 0 0 1-7.849-2.964c-2.58-1.018-5.087-2.11-7.521-3.201a116.924 116.924 0 0 1-6.926-3.395 72.91 72.91 0 0 1-6.039-3.569 36.492 36.492 0 0 1-4.818-3.67 17.875 17.875 0 0 1-3.205-3.733c-.605-.915-1.006-2.017-1.162-3.193v-1.247c.857-8.872 14.054-11.12 29.214-12.432h.196a332.705 332.705 0 0 1 16.576-.257 415.61 415.61 0 0 1 19.621.67c6.97.404 14.287 1 21.86 1.734l11.525 1.266 11.773 1.56c1.984.247 3.975.568 5.973.917l6.003.917 6.017.918 6.017 1.027a581.77 581.77 0 0 1 23.858 4.762 494.227 494.227 0 0 1 22.95 5.688c14.824 4.055 28.53 8.504 40.158 12.844 11.627 4.34 21.161 8.477 27.753 11.605 3.292 1.56 5.813 2.863 7.579 3.771l1.032.551a9.08 9.08 0 0 1 .77 3.412l-.632-.532Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M20.855 65.468c-.4 3.404-2.42 5.844-4.52 5.45-2.1-.395-3.474-3.459-3.081-6.863.392-3.403 2.42-5.834 4.52-5.44 2.1.395 3.474 3.459 3.081 6.853Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M14.57 64.926 21.472.633 17.86 65.358l-3.292-.432ZM17.81 66.074l-4.76 37.945 1.461-38.376 3.3.43Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M16.153 66.972 2.782 63.936l13.553-1.138-.182 4.174Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m15.855 65.037-8.27-7.78 9.15 6.009-.88 1.77Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M16.226 63.294 4.308 43.165 16.749 62.78l-.523.514ZM16.8 64.991l-8.604 6.945 7.601-8.615 1.003 1.67Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M16.786 63.22 2.767 97.688 16.19 62.844l.596.376ZM13.835 47.495a12.1 12.1 0 0 0-2.18 1.083c-.305.201-.64.422-.981.679-.342.257-.727.541-1.046.853-.366.318-.718.66-1.054 1.027a17.242 17.242 0 0 0-1.89 2.486c-.145.22-.269.46-.407.68-.138.22-.247.458-.37.678-.226.468-.45.918-.64 1.358-.101.22-.181.44-.269.652-.087.21-.174.412-.24.614-.138.404-.283.77-.385 1.101-.101.33-.21.624-.269.872l-.232.77s0-.302.102-.816c0-.257.094-.569.16-.917.065-.35.167-.753.268-1.184.051-.211.124-.431.19-.66.068-.238.145-.47.232-.698.176-.502.372-.992.589-1.468.217-.508.46-.998.726-1.467a13.639 13.639 0 0 1 1.991-2.615c.362-.368.74-.708 1.134-1.019a10.07 10.07 0 0 1 1.141-.789c.348-.212.705-.402 1.068-.569a8.138 8.138 0 0 1 1.672-.55c.228-.05.459-.085.69-.1Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M.98 65.89c-.065.483-.109.97-.131 1.458a34.499 34.499 0 0 0 0 3.863c.036.789.116 1.651.21 2.55.095.9.255 1.835.437 2.817.087.486.196.972.305 1.458.109.487.232.991.378 1.478l.203.743c.08.238.153.486.233.733.145.496.327.973.494 1.45.167.477.37.918.552 1.431l.596 1.377.64 1.33.668 1.257.683 1.183c.233.385.465.743.69 1.1.226.359.458.69.684 1.02.225.33.429.65.654.917.436.578.828 1.119 1.199 1.569.37.45.683.862.966 1.174l.85 1-.93-.917c-.298-.285-.64-.652-1.031-1.083a36.299 36.299 0 0 1-1.294-1.486c-.233-.266-.458-.578-.727-.918-.269-.34-.494-.642-.726-1-.233-.358-.487-.706-.727-1.082l-.727-1.175a22.505 22.505 0 0 0-.727-1.266c-.261-.422-.45-.917-.668-1.34-.218-.421-.422-.917-.625-1.403a26.863 26.863 0 0 1-.567-1.459c-.174-.495-.356-.981-.501-1.495-.08-.248-.153-.505-.233-.752-.08-.248-.138-.505-.203-.762a33.293 33.293 0 0 1-.654-3.018 36.333 36.333 0 0 1-.364-2.88 30.93 30.93 0 0 1-.116-2.615c-.008-.736.017-1.47.073-2.202.036-.66.101-1.23.16-1.688.058-.46.13-.826.174-1.074.043-.247.102-.293.102-.293ZM16.124 65.21l13.692-34.972-12.187 35.853-1.505-.88Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m17.142 64.614 7.74 17.367-9.673-15.752 1.933-1.615ZM121.337 27.064c2.725-.853 4.513-3.67 3.99-6.422-.523-2.752-3.161-4.165-5.887-3.32-2.725.843-4.512 3.669-3.989 6.421.523 2.753 3.161 4.165 5.886 3.321Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M120.276 18.963 68.644 34.247l52.301-11.046-.669-4.238ZM121.519 23.055l30.405-9.899-31.074 5.66.669 4.24Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m122.1 20.826-3.786-17.037.4 17.688 3.386-.651Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m120.494 20.624-7.151-9.954 5.792 11.275 1.359-1.32Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M119.106 21.276 101.563 7.808l17.18 14.201.363-.733ZM120.545 21.853l4.804-11.834-6.257 10.697 1.453 1.137Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M119.106 22.009 145.769.449l-27.026 20.826.363.734ZM106.025 19.725c.154-.999.378-1.978.669-2.927.131-.421.276-.871.451-1.339.174-.468.37-.917.588-1.45.218-.532.473-.972.727-1.458.269-.489.56-.957.872-1.404.301-.455.624-.887.967-1.294l.508-.587c.175-.192.349-.367.523-.55.349-.349.727-.679 1.04-.918.169-.146.336-.284.501-.412.16-.129.32-.266.472-.376.32-.211.604-.44.865-.606.262-.165.487-.33.676-.44l.603-.367s-.232.064-.647.21c-.21.065-.457.175-.726.294-.269.12-.596.294-.93.468-.175.092-.342.211-.524.312-.181.1-.363.23-.545.367-.394.273-.773.58-1.133.918-.393.347-.767.727-1.12 1.137a15.44 15.44 0 0 0-1.039 1.34c-.319.477-.617.976-.894 1.495a16.55 16.55 0 0 0-1.257 3.128c-.14.47-.256.952-.349 1.44a15.952 15.952 0 0 0-.29 2.221 7.867 7.867 0 0 0-.008.798Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M119.717 1.257c.387-.132.78-.24 1.177-.321a18.425 18.425 0 0 1 3.139-.404h2.1c.742 0 1.527.147 2.333.285.4.073.807.165 1.221.257.414.091.821.21 1.235.339l.625.202.618.22c.414.147.821.33 1.235.505.415.174.807.376 1.214.568l1.177.643 1.141.697 1.09.743 1.032.77c.335.257.654.533.967.78.312.248.603.532.894.79.29.256.567.495.821.752.516.513.995.917 1.395 1.403.4.487.77.808 1.054 1.138l.894 1.01-.814-1.12c-.255-.358-.596-.77-.981-1.239a35.252 35.252 0 0 0-1.337-1.523c-.24-.284-.516-.54-.793-.825a12.636 12.636 0 0 0-.879-.835c-.312-.266-.625-.57-.959-.853l-1.032-.817-1.097-.789c-.371-.248-.763-.486-1.149-.734l-1.206-.67c-.414-.192-.821-.412-1.243-.596a16.672 16.672 0 0 0-1.264-.505l-.632-.22-.64-.192a18.023 18.023 0 0 0-4.905-.734 15.767 15.767 0 0 0-2.137.11c-.599.063-1.196.164-1.787.303-.531.119-.981.256-1.352.376-.371.119-.661.247-.857.33l-.298.156ZM120.661 20.954 93.555 42.156l27.964-19.34-.858-1.862Z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m120.269 22.33 14.897 8.33-13.763-10.99-1.134 2.66Z"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" d="M.5 0h300v127.881H.5z"></path>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <h2
+                class="col-span-2 max-w-[400px] font-lato text-3xl font-bold leading-9 text-white duration-[1s] ease-in-out translate-x-[-30%] opacity-0"
+              >
+                Talking with us is free and we will give you awesome tips
+              </h2>
+              <div
+                class="duration-[1s] ease-in-out lg:ml-auto translate-x-[30%] opacity-0"
+              >
+                <a
+                  aria-label="Work with us"
+                  id="work-with-us"
+                  class="group relative flex scale-100 flex-row items-center gap-1 border-0 bg-yellow-500 font-lato text-lg font-bold text-gray-500 transition duration-300 ease-in-out hover:scale-110 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-max px-10 py-4"
+                  href="../contact-us.html"
+                  >Work with us</a
+                >
+              </div>
+            </div>
+          </section>
+          <section
+            class="grid grid-cols-1 bg-blue-500 px-6 py-12 md:px-24 lg:grid-cols-[1fr,800px,1fr] lg:px-0 lg:py-[6rem]"
+          >
+            <div
+              class="grid grid-cols-1 gap-8 lg:col-start-2 lg:grid-cols-6 lg:gap-0"
+            >
+              <div class="mb-7 hidden flex-col lg:col-span-2 lg:flex">
+                <a class="relative z-20 h-[28px] w-[150px]" href="../index.html"
+                  ><img
+                    alt="Tryspikes logo"
+                    fetchpriority="high"
+                    decoding="async"
+                    data-nimg="fill"
+                    class="cursor-pointer brightness-[0] invert"
+                    style="
+                      position: absolute;
+                      height: 100%;
+                      width: 100%;
+                      left: 0;
+                      top: 0;
+                      right: 0;
+                      bottom: 0;
+                      color: transparent;
+                    "
+                    src="./assets/logo-transparent-white.png"
+                /></a>
+                <div class="mt-16 flex flex-col gap-2">
+                  <span
+                    class="font-lato text-base font-light leading-[0.875rem] text-gray-100"
+                    >CONTACT US</span
+                  ><a
+                    class="font-lato text-base font-normal leading-[1.125rem] text-white hover:underline"
+                    href="../cdn-cgi/l/email-protection.html#086f6d666d7a6964487f617b6d7e6d7a6f6d266b6765"
+                    ><span
+                      class="__cf_email__"
+                      data-cfemail="01a7d7f747f687b765a6d73697f6c7f687d7f34797577"
+                      >general@tryspikes.com</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div class="col-span-1 mb-7 flex flex-col lg:hidden">
+                <a class="relative z-20 h-[28px] w-[150px]" href="../index.html"
+                  ><img
+                    alt="Tryspikes logo"
+                    fetchpriority="high"
+                    decoding="async"
+                    data-nimg="fill"
+                    class="cursor-pointer brightness-[0] invert"
+                    style="
+                      position: absolute;
+                      height: 100%;
+                      width: 100%;
+                      left: 0;
+                      top: 0;
+                      right: 0;
+                      bottom: 0;
+                      color: transparent;
+                    "
+                    src="./assets/logo-transparent-white.png"
+                /></a>
+                <div
+                  class="mt-8 flex flex-col gap-2 border-y-[1px] border-gray-100 border-opacity-[0.2] py-6"
+                >
+                  <a
+                    aria-label="Talk with us button"
+                    class="group relative flex scale-100 flex-row items-center gap-1 border-0 bg-yellow-500 font-lato text-lg font-bold text-gray-500 transition duration-300 ease-in-out hover:scale-110 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-max p-4"
+                    href="../contact-us.html"
+                    >Talk with us
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                      class="text-inherit w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                      ></path></svg
+                  ></a>
+                </div>
+              </div>
+              <div class="col-span-1 flex flex-col">
+                <p
+                  class="font-lato text-xl font-bold leading-6 text-white lg:text-lg lg:font-normal lg:leading-[1.250rem]"
+                >
+                  About Us
+                </p>
+                <div class="mt-2 flex flex-col gap-3 lg:gap-2">
+                  <a
+                    aria-label="Who we are footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../about-us.html.html"
+                    >Who we are</a
+                  >
+                </div>
+              </div>
+              <div class="col-span-1 flex flex-col">
+                <p
+                  class="font-lato text-xl font-bold leading-6 text-white lg:text-lg lg:font-normal lg:leading-[1.250rem]"
+                >
+                  Services
+                </p>
+                <div class="mt-2 flex flex-col gap-3 lg:gap-2">
+                  <a
+                    aria-label="What we offer footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../services.html"
+                    >What we offer</a
+                  ><a
+                    aria-label="MVP Product Development footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../services/mvp-product-development.html"
+                    >MVP Product Development</a
+                  ><a
+                    aria-label="Web development footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../services/web-development.html"
+                    >Web development</a
+                  ><a
+                    aria-label="Mobile development footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../services/mobile-development.html"
+                    >Mobile development</a
+                  ><a
+                    aria-label="AI &amp; ML footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../services/ai-and-ml.html"
+                    >AI &amp; ML</a
+                  ><a
+                    aria-label="Strategy footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../services/strategy.html"
+                    >Strategy</a
+                  >
+                </div>
+              </div>
+              <div class="col-span-1 flex flex-col">
+                <p
+                  class="font-lato text-xl font-bold leading-6 text-white lg:text-lg lg:font-normal lg:leading-[1.250rem]"
+                >
+                  Case Studies
+                </p>
+                <div class="mt-2 flex flex-col gap-3 lg:gap-2">
+                  <a
+                    aria-label="Our Work footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../case-studies.html"
+                    >Our Work</a
+                  ><a
+                    aria-label="Seedrs - MVP Mobile Application footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="seedrs-mvp-development.html"
+                    >Seedrs</a
+                  ><a
+                    aria-label="Stake - MVP Mobile Application footer button"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-base font-light leading-[1.125rem] text-gray-300 md:gap-2 hover:text-white group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="stake-mvp-development.html"
+                    >Stake</a
+                  >
+                </div>
+              </div>
+              <div class="col-span-1 flex flex-col">
+                <div class="flex w-full flex-row items-center justify-between">
+                  <a
+                    aria-label="Visit our blog"
+                    class="group relative flex flex-row items-center gap-1 border-0 font-lato text-lg text-blue-300 md:gap-2 scale-100 transition duration-300 ease-in-out hover:scale-110 group-hover:cursor-pointer w-max max-w-[200px] lg:max-w-[150px]"
+                    href="../blog.html"
+                    >Visit our blog
+                    <div class="text-white">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                        class="text-inherit w-5 h-5"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                        ></path>
+                      </svg></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-7 flex w-full flex-col items-center justify-between gap-4 border-t-[1px] border-gray-100 border-opacity-[0.2] pt-7 lg:col-start-2 lg:flex-row lg:gap-0"
+            >
+              <p
+                class="text-center font-lato text-sm font-light leading-[0.75rem] text-gray-100 lg:text-start lg:text-white"
+              >
+                ©
+                <!-- -->2023<!-- -->
+                Tryspikes Technologies, LDA. All rights reserved.
+              </p>
+              <div class="flex flex-row gap-4">
+                <a
+                  aria-label="Facebook"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.facebook.com/tryspikes"
+                  ><svg
+                    fill="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    class="w-5 text-white opacity-80 transition-all duration-300 hover:opacity-100"
+                  >
+                    <path
+                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    ></path></svg></a
+                ><a
+                  aria-label="Linkedin"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/company/tryspikes"
+                  ><svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    class="w-5 text-white opacity-80 transition-all duration-300 hover:opacity-100"
+                  >
+                    <path
+                      stroke="none"
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
+                    ></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle></svg></a
+                ><a
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/tryspikestechnologies/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    class="w-5 text-white opacity-80 transition-all duration-300 hover:opacity-100"
+                  >
+                    <path
+                      d="M8 3C5.243 3 3 5.243 3 8v8c0 2.757 2.243 5 5 5h8c2.757 0 5-2.243 5-5V8c0-2.757-2.243-5-5-5H8zm0 2h8c1.654 0 3 1.346 3 3v8c0 1.654-1.346 3-3 3H8c-1.654 0-3-1.346-3-3V8c0-1.654 1.346-3 3-3zm9 1a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1zm-5 1c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3z"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K5J8G74"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <script
+      data-cfasync="false"
+      src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+  </body>
+  <!-- Mirrored from tryspikes.com/case-studies/seedrs-mvp-development by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Dec 2023 02:42:06 GMT -->
+</html>
